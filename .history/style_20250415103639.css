@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+main { 
+    background-image: url("assets/um-fundo-roxo-e-azul-com-um-fundo-roxo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    display: flex;
+    
+
+}
+
+.container-left {
+    background-color: rgb(88, 125, 125);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-left h1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.container-right {
+    background-color: blueviolet;
+}
