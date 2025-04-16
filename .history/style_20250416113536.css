@@ -11,7 +11,7 @@ main {
     background-size: cover; 
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     justify-content: space-evenly;
     padding: 40px 120px;
 }
@@ -48,13 +48,10 @@ font-size: 60px;
    align-items: center;
    padding: 0 60px;
    border-radius: 20px;
-   width: 50%;
+   w
 }
 
 .teste-gratis {
-    display: flex;
-    justify-content:center;
-    align-items: center;
    width: 80%;
     background-color: rgb(0, 0, 0);
     color: azure;
@@ -62,12 +59,17 @@ font-size: 60px;
     border-radius: 20px;
 }
 
+.teste-gratis p {
+
+}
+
 .forms {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .forms form{
+    
     gap: 10px;
 }
 
@@ -96,3 +98,4 @@ font-size: 60px;
     gap: 5px;
 }
 
+.term

@@ -64,7 +64,7 @@ font-size: 60px;
 
 .forms {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .forms form{
@@ -96,3 +96,4 @@ font-size: 60px;
     gap: 5px;
 }
 
+.term
