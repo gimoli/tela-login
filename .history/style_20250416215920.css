@@ -7,17 +7,16 @@
 
 main { 
     display: flex;
-    background-image: url("assets/lirio.jpg");
+    background-image: url("assets/um-fundo-roxo-e-azul-com-um-fundo-roxo.avif") no-repeat center center;
     background-size: cover; 
     position: relative;
     height: 100vh;
     z-index: 0;
-    padding: 40px 120px; 
-    gap: 13px;
+    padding: 40px 120px;
  
     &::after{
         content: "";
-        background: linear-gradient(105deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(105deg, black 0%, rgba(0, 0, 0, 0) 100%);
         position: absolute;
         top: 0;
         left: 0;
@@ -42,71 +41,42 @@ main {
 
     &:houver::after{
         content: "";
-        position: absolute;
-        bottom: 380px;
-        left: 120px;
-        background-color: aquamarine;
-        height: 3px;
-        width: 400px;
-        animation-name: left-to-right;
-        animation-duration: 600ms;
-        animation-iteration-count: 1;
     }
+}
+
+.container-left p {
+    width: 80%;
 }
 
 .container-right {
    display: flex;
-   background-color: rgba(136, 11, 11, 0.63);
+   background-color: blueviolet;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    padding: 0 60px;
    border-radius: 20px;
-   color: rgb(255, 255, 255);
+   width: 50%;
 }
 
 .teste-gratis {
     display: flex;
     justify-content:center;
     align-items: center;
-   width: 460px;
-   height: 25px;
-    background-color: rgb(82, 0, 0);
+   width: 80%;
+    background-color: rgb(0, 0, 0);
+    color: azure;
     text-decoration: none;
-    color: blanchedalmond;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 16px;
-
-    &:hover{
-     transform: scale(1.1);
-    }
-}
-
-.teste-gratis p{
-    text-align: center;
 }
 
 .forms {
-    width: 100%;
-
+    display: flex;
+    justify-content: center;
 }
 
 .forms form{
-    display: flex;
-    flex-direction: column;
     gap: 10px;
-    
-}
-
-.forms_info {
-    text-align: center;
-    
-}
-
-.forms input{
-    border-radius: 20px;
-    width: 100%;
 }
 
 .forms button{
@@ -114,9 +84,11 @@ main {
     margin-top: 20px;
     border-radius: 10px;
     padding: 10px 15px;
-    background-color: rgb(82, 12, 12);
+    background-color: blueviolet;
     color: blanchedalmond;
-    border: 0.5px solid rgb(68, 0, 0);
+    width: 40%;
+    align-self: center;
+    border: 0.5px solid rgb(123, 15, 153);
     font-weight: 600;
 
     &:active {
@@ -126,31 +98,9 @@ main {
 
 } 
 
-
 .terms {
     display: flex;
     justify-content: center;
     gap: 5px;
-  }
-  
-  .terms input {
-    width: fit-content;
-  }
-
-  
-  .terms p {
-    width: fit-content;
-    color: rgb(248, 241, 255);
-    font-weight: 900;
-  }
-  
-  @keyframes left-to-right {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 400px;
-    }
-  }
-  
+}
 

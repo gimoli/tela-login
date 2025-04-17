@@ -73,7 +73,7 @@ main {
    height: 25px;
     background-color: rgb(82, 0, 0);
     text-decoration: none;
-    color: blanchedalmond;
+    color: azure;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 16px;
@@ -126,6 +126,12 @@ main {
 
 } 
 
+.forms button :hover { 
+   
+        background-color: #c90c0c;
+        transform: scale(1.05); /* Reduz o aumento do botão para 5% */
+    }
+}
 
 .terms {
     display: flex;

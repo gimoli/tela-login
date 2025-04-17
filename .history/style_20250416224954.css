@@ -56,7 +56,7 @@ main {
 
 .container-right {
    display: flex;
-   background-color: rgba(136, 11, 11, 0.63);
+   background-color: rgba(136, 11, 11, 0.623);
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -73,7 +73,7 @@ main {
    height: 25px;
     background-color: rgb(82, 0, 0);
     text-decoration: none;
-    color: blanchedalmond;
+    color: azure;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 16px;
@@ -125,7 +125,6 @@ main {
     }
 
 } 
-
 
 .terms {
     display: flex;
